@@ -1,0 +1,71 @@
+nav > ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+a:visited {
+    background-color: darkmagenta;
+}
+
+/* Task 3: Dynamic Call-to-Action Buttons */
+button {
+    margin: 10px;
+    border-radius: 75px;
+    background-color: lightskyblue;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+/* Task 2: Eye-Catching Image Gallery */
+.homecoming_poster {
+    width: 200px;
+    height: 300px;
+    background-image: url('images/homecoming1.jpg');
+    background-size: cover;
+    transition: background-image 0.5s;
+}
+
+.homecoming_poster:hover {
+    background-image: url('images/homecoming2.jpg');
+}
+
+.far_from_home_poster {
+    width: 200px;
+    height: 300px;
+    background-image: url('images/far_from_home1.jpg');
+    background-size: cover;
+    transition: background-image 0.5s;
+}
+
+.far_from_home_poster:hover {
+    background-image: url('images/far_from_home2.jpg');
+}
+
+.no_way_home_poster {
+    width: 200px;
+    height: 300px;
+    background-image: url('images/no_way_home1.jpg');
+    background-size: cover;
+    transition: background-image 0.5s;
+}
+
+.no_way_home_poster:hover {
+    background-image: url('images/no_way_home2.jpg');
+}
+
+textarea:hover {
+    border: 1px solid blue;
+    border-radius: 4px;
+}
